@@ -9,9 +9,14 @@ header{
     margin-bottom: 15px;
 }
 
+@font-face {
+    font-family: Bastille Vredeburg Demo;
+    src: url(Bastille.ttf);
+}
+
 h1{
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Bastille Vredeburg Demo;
     font-size: 80px;
     margin: 0px;
     color: darkred;
