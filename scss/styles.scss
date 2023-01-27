@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Bastille Vredeburg Demo;
+    src: url(Bastille.ttf);
+}
+
+header{
+    background-color:beige;
+    margin-bottom: 15px;
+    h1{
+        text-align: center;
+        font-family: Bastille Vredeburg Demo;
+        font-size: 80px;
+        margin: 0px;
+        color: darkred;
+    }
+    .subt{
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 10px;
+        color: saddlebrown;
+    }
+    .menu{
+        .menu-lista{
+            display: inline-flex;
+            list-style: none;
+            li{
+               a{   
+            text-decoration:none;
+            text-transform: uppercase;
+            margin: 10px 20px;
+            color: darkred;
+                }     
+            }
+        }
+    }
+}
+
+main{
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 80%;
+        margin: 0 auto;
+        .caja{    
+            margin: 10px;
+            height:auto;
+            overflow: hidden;
+            .zoom{
+                transition: 0.5s;
+                object-fit: cover;
+            }
+            .zoom:hover{
+                transform: scale(1.5);
+            }
+        }
+    }
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: 0 auto;
+    .card{
+        margin: 15px;
+        margin-bottom: 5px;
+        .producto{
+            width: 100%;
+            height: 100%;
+        }  
+    }
+    .desc{
+        margin: 15px;
+        margin-top: 0px;
+        background-color: bisque;
+    }
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0%;
+    .icono{
+        font-size: 30px;
+        color: brown;
+        text-align: right;
+        margin: 10px;
+        margin-right: 25px;
+    }
+    .red{
+        text-align: left;
+        font-size: 15px;
+        color: brown;
+        margin-left: 0px;
+    }
+}
+
+.maps{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    text-align: center;
+    background-color: bisque;
+}
+
+
+
+
+
+footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: bisque;
+    margin-bottom: 0px;
+    .final{
+        text-align: center;
+    }
+}
