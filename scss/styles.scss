@@ -10,20 +10,23 @@ body{
 }
 
 header{
-    background-color:beige;
-    margin-bottom: 15px;
-    h1{
+    .nav-logo{
+        background-color: rgb(255,239,237);
+        margin: 0px
+    }
+    .logo{
         text-align: center;
         font-family: Bastille Vredeburg Demo;
         font-size: 80px;
         margin: 0px;
         color: darkred;
+        text-decoration: none;
     }
     .subt{
         text-align: center;
         margin: 0px;
-        margin-bottom: 10px;
-        color: saddlebrown;
+        padding-bottom: 10px;
+        color: darkred;
     }
     .menu{
         .menu-lista{
@@ -88,7 +91,7 @@ main{
     margin: 0%;
     .icono{
         font-size: 30px;
-        color: brown;
+        color: darkred;
         text-align: right;
         margin: 10px;
         margin-right: 25px;
@@ -96,7 +99,7 @@ main{
     .red{
         text-align: left;
         font-size: 15px;
-        color: brown;
+        color: darkred;
         margin-left: 0px;
     }
 }
@@ -115,16 +118,44 @@ nav{
     background-color: bisque;
 }
 
-
-
-
+.fondo{
+    background-image: url("../f20.jpg");
+}
+.nosotros{
+    width: 80%;
+    margin-left:10%;
+        h2{
+            margin: 0%;
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkred;
+        }
+        h3{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkred
+        }
+        p{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkred
+        }
+}
 
 footer{
     margin: 0px;
     padding: 10px;
     background-color: bisque;
     margin-bottom: 0px;
-    .final{
-        text-align: center;
+        .final{
+            text-align: center;
+        }
+        .navbar{
+            .navbar-menu{
+                display: inline flex;
+                list-style: none;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
     }
-}
